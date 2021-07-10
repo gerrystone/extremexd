@@ -346,6 +346,7 @@ border-radius: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .arrowicon{
@@ -369,7 +370,9 @@ border-radius: 0;
     width: 100%;
     background-size: cover;
 }
-
+.places-arrows{
+    padding-top: 12%;
+}
 .places .nature {
     height: 350px;
     background: url('./nature.png');
@@ -558,8 +561,7 @@ border-radius: 0;
 }
 .happening-items-details p{
     font-size: 18px;
-    line-height: 21.6px;
-    letter-spacing: 0.18px;
+    width: 100%;
 }
 .happening-items-details table {
     width: 100%;

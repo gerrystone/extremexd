@@ -10,7 +10,7 @@ const Places = () => {
             </div>
             <div className="container placeimages">
                 <div className="row">
-                    <div className="col-md-1 d-flex align-items-center">
+                    <div className="col-md-1 d-flex places-arrows justify-content-center ">
                         <div className="arrow-placeholder ">
                             <img src={leftarrow} className="arrowicon" />
                         </div>
@@ -58,7 +58,7 @@ const Places = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-1 d-flex align-items-center">
+                    <div className="col-md-1 d-flex places-arrows justify-content-center ">
                         <div className="arrow-placeholder">
                             <img src={rightarrow} className="arrowicon" />
                         </div>
