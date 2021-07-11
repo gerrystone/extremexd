@@ -27,11 +27,14 @@ const Easter = () => {
                         </div>
                     </div>
                     <div className="col-md-5">
-                       <div className="easter-image d-flex align-items-end">
-                            <button className="btn btn-easter-image">
+                       <div className="easter-image">
+                           <div className="easter-image-button-holder">
+                           <button className="btn btn-easter-image">
                                 VIEW ACTIVITY
                             </button>
                             
+                           </div>
+                           
                        </div>
                        <div className="container-fluid">
                                 <div className="footprint1">
